@@ -1,0 +1,23 @@
+from threading import Thread
+from djitellopy import Tello
+
+# Cambia el "X" por el nombre que quieres dar al variable
+# Objeto
+
+X = Tello()
+
+# Establecemos conecion con el dron
+X.connect()
+
+# Cambiar la "Y" por el nombre de la red
+# Cambiar la "D" por la contraseña de la red
+# Damos el valor del ssid y la contraseña de la red wifi al variable "ssid" y "passw"
+
+ssid = "YYYY"
+passw = "DDDD"
+
+# Establecemos conecion al la red
+
+X.connect_to_wifi(ssid, passw)
+
+

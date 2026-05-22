@@ -1,0 +1,8 @@
+from djitellopy import TelloSwarm
+
+#Creamos nuestro objeto TelloSwarm
+
+swarm = TelloSwarm.fromIps([
+    "192.168.10.1",
+    ""
+])
